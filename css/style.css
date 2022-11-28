@@ -1,0 +1,233 @@
+.theme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+#navbar{
+   background-color: rgba(29,29,31,0.72);
+    height: 40px;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: .1%;
+    z-index: 10;
+    margin-bottom: 10px;
+    border-bottom:.1px solid grey;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+}
+.links a{
+    color: gray;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.logo{
+    color: white;
+}
+.iphone{
+    font-size: 120px;
+    color:#E899DC;
+    text-align: center;
+    margin-left: 100px;
+    position: relative;
+    bottom:100px;
+}
+.iphone img{
+    display: flex;
+    flex-direction: column;
+    align-content:space-around;
+    position: relative;
+    bottom:100px;
+    width: 100%;
+}
+video{
+    /* pointer-events: none; */
+    height: 80%;
+    width: 80%;
+}
+.OO{
+    width: 650px;
+    height: 850px;
+}
+.girl{
+    width: 650px;
+    height: 800px;
+    transition: .7s;
+    
+}
+.girl:hover{
+    width: 700px;
+    height: 800px;
+}
+.mobile2{
+    margin-top: 300px;
+}
+.mobile2 .content2{
+    text-align: center;
+    color: #cecece;
+    font-size: 25px;
+}
+.mobile3{
+    display: flex;
+    justify-content: space-around;
+}
+.content{
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+     margin-top: 200px;
+}
+.content .change{
+  color:#ea90ed
+ 
+}
+.change2{
+    font-size: 20px;
+    color: #86868b;
+}
+.phone3{
+    width: 380px;
+    height: 800px;
+
+}
+.hoz{
+    margin-top: 200px;
+    text-align: center;
+}
+.hoz img{
+    width: 80%;
+}
+.hoz h2{
+   position: relative;
+   top: 50px;
+   font-size: 40px;
+   font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.hoz h1{
+    color:#ffbc3a;
+    font-size: 150px;
+    margin-bottom: 30px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.vert{
+    width: 85%;
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.vert img{
+    width: 400px;
+}
+.vert h2{
+    font-size: 80px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.vert p{
+    font-size: 32px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.lastc{
+    margin-top: 300px;
+    text-align: center;
+    color: #cecece;
+}
+.lastc p{
+    font-size: 56px;
+}
+.runc{
+    margin-top: 300px;
+}
+.runc .run{
+    margin-left: 100px;
+}
+.runtext{
+    text-align: center;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 96px;
+    color: #cecece;
+}
+#para{
+    position: absolute;
+    top:180%;
+
+}
+#para p{
+     /* position: sticky; */
+    top:40%;
+     background: linear-gradient(to bottom,black,#140742, #eee, rgba(222,112,6,0.2),#ea90ed,#140742,black);
+   background-attachment: fixed;
+   -webkit-text-fill-color: transparent;
+  -webkit-background-clip:text; 
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+
+
+   
+}
+#colors{
+    margin-top: 900px;
+     background-image:url('../background2.png');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-size: 100% 2400px;
+     height: 3300px;
+     width: 100%;
+}
+.text{
+    position: sticky;
+    top: 20%;
+    color: black;
+    text-align:left;
+    font-size: 100px;
+    margin-left: 20%;
+    margin-bottom: 100px;
+}
+.text h1,span{
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 120px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.text .para2{
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.button{
+    font-size: 24px;
+
+}
+.section{
+    display: flex;
+
+}
+.phones{
+    position: relative;
+    top: 300px;
+}
+li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.phones a{
+    color: gray;
+    text-decoration: none;
+    margin-left: 20px;
+}
+footer{
+    background-color: rgba(29,29,31,0.72);
+    width: 100%;
+}
+footer ul{
+    margin-left: 40%;
+    display: flex;
+}
+footer ul li{
+    margin-left: 20px;
+}
